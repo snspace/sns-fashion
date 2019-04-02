@@ -9,7 +9,12 @@ Flexible&amp;Graceful Implementation of Super Nerd Space
 - * Code is really just part of the Content(local and global)
 :eyes: [stack](./stack)
 
-## Stack
+## Features
+- Stack full of fashionable web technologies :eyes: [stack](./stack)
+- Accessibility to the web of IPFS(InterPlanetary File System)
+- Distributed, Offline-First principle and practices
+
+## Stack :eyes: [stack](./stack)
 
 ### _Fashion(Flexible&Graceful&Popular)_
 

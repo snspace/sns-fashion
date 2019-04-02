@@ -1,0 +1,3 @@
+[submodule "service-worker-gateway"]
+	path = service-worker-gateway
+	url = ./

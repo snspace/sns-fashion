@@ -2,6 +2,15 @@
 
 Flexible&amp;Graceful Implementation of Super Nerd Space
 
+> "Our world in my sense are still full of separations. I have long been depressed about it. Now, as an engineer of software, I'm setting a step forward to making software engineering partitions closer and closer."
+
+### 1st Little Step
+> - Code & Content (via universal abstraction and linking, so that:)
+> > - Code is really just part of the Content(local and global)
+          |=> Embedded JSIPFS Client(Custom)   |{direct} <=> Embedded JSIPFS Node(Custom)} - {The Backend Repositories}
+Browser <=|                                    |{proxy}                                                  |
+          |=> IPFS{ipfs-postmsg-proxy(Client) <=> Gateway(ServiceWorker) <=> ipfs-postmsg-proxy(Server) <=> Embedded JSIPFS Node(Custom)} <=> jsipfs@local, goipfs@local, goipfs@remote, ..., {The Rest of the World}
+
 ## Stack
 
 ### _Fashion(Flexible&Graceful&Popular)_
@@ -28,15 +37,7 @@ _Git/BlockChain/CRDTs/... :on: IPLD/Multiformats/LibP2P/..._
 - Distributed(Peer2Peer) Gathering
 
 ---
-:done:
-- 
-
----
-:doing: --> Stack building kick-off
-- Foundation: Stack Management // In syncing with IPFS-2019-Priority(Package Managers)
-- * [IPFS-package-managers-d1-e5-i3](https://github.com/ipfs/roadmap#-package-managers-d1-e5-i3)
-- * [IPFS-package-managers-WG](https://github.com/ipfs/package-managers)
-- * [npm-on-ipfs](https://github.com/ipfs-shipyard/npm-on-ipfs) & [gx](https://github.com/whyrusleeping/gx)
-- Start // JS-IPFS-WWW + MDBootstrap-React
-- * Integrate [JS-IPFS-WWW](https://github.com/ipfs/js.ipfs.io) & [MDBootstrap-React](https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design) (via UC: Extract `Magic` from `js.ipfs.io` into `sns-fashion` as default background/foundation)  :done:
-- * Use `npm-on-ipfs` ???
+:credits: **_This may not happen without_**
+- [JS-IPFS-WWW](https://github.com/ipfs/js.ipfs.io)
+- [MDBootstrap-React](https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design)
+- [IPFS-ServiceWorkerGateway](https://github.com/ipfs-shipyard/service-worker-gateway)

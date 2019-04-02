@@ -7,6 +7,7 @@ Flexible&amp;Graceful Implementation of Super Nerd Space
 ### 1st Little Step
 > - Code & Content (via universal abstraction and linking, so that:)
 > > - Code is really just part of the Content(local and global)
+---
           |=> Embedded JSIPFS Client(Custom)   |{direct} <=> Embedded JSIPFS Node(Custom)} - {The Backend Repositories}
 Browser <=|                                    |{proxy}                                                  |
           |=> IPFS{ipfs-postmsg-proxy(Client) <=> Gateway(ServiceWorker) <=> ipfs-postmsg-proxy(Server) <=> Embedded JSIPFS Node(Custom)} <=> jsipfs@local, goipfs@local, goipfs@remote, ..., {The Rest of the World}
@@ -41,3 +42,4 @@ _Git/BlockChain/CRDTs/... :on: IPLD/Multiformats/LibP2P/..._
 - [JS-IPFS-WWW](https://github.com/ipfs/js.ipfs.io)
 - [MDBootstrap-React](https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design)
 - [IPFS-ServiceWorkerGateway](https://github.com/ipfs-shipyard/service-worker-gateway)
+
